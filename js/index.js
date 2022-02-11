@@ -5,14 +5,14 @@ let result = names.reverse();
 console.log(result) // ['karl', 'smith', 'john']
 
 function reverseNames(names){
-    return names.sort()
+    return names.sort();
 };
 
 console.log(reverseNames(names)); // ['john', 'smith', 'karl']
 
 // task 2
 
-const items = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+const items = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 function isPangram(pangrams){
     for (let i = 0; i < items.length; i++){
