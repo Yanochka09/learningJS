@@ -2,7 +2,7 @@
 
 const names = ['john', 'smith', 'karl']; 
 let result = names.reverse();
-console.log(result) // ['karl', 'smith', 'john']
+console.log(result); // ['karl', 'smith', 'john']
 
 function reverseNames(names){
     return names.sort();
