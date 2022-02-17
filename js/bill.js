@@ -7,20 +7,18 @@ export default class Bill {
   
     /** @param {string} amountStr */
     addAmount(amountStr) {
-        this.amounts[amountStr] = number;
-        this.amounts.push(amountStr);
+        this.amounts.push(amountStr)  
         return this.amounts
-       
     } 
     getCount(){
         return this.amounts.length;
     }
     getTotal(){
         let result = 0;
-        this.amounts.forEach(function(amountStr){
-          result += amountStr;  
+        this.amounts.forEach(function(amount){
+          result += amount;  
         })
-        return result;
+        return result
     }
     getAverage(){
         let result = 0;
