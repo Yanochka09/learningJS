@@ -7,7 +7,8 @@ export default class Bill {
   
     /** @param {string} amountStr */
     addAmount(amountStr) {
-        this.amounts.push(amountStr)  
+        let num = Number(amountStr)
+        this.amounts.push(num)  
         return this.amounts
     } 
     getCount(){
