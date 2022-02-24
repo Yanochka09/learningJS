@@ -7,32 +7,18 @@
     <link rel="stylesheet" href="/css/stile.css">
     <title>Document</title>
 </head>
-<body>
-    <nav class="navbar">
-        <h1 class="nav-brand">Split the bill</h1>
-      </nav>
-      
-      <main class="container">
-        <form id="amount-form">
-          <label class="label" for="component-name">Enter amount paid</label>
-          <input type="number" class="input" placeholder="Amount paid" id="amount" autocomplete="off">
-          <input type="submit" class="btn btn-accent" value="Add" />
-        </form>
-      
-        <div class="table-container">
-          <h2>Your bill</h2>
-            <table class="table" border="1">
-            <thead>
-              <tr>
-                <th width="50%">Description</th>
-                <th>Amount</th>
-              </tr>
-            </thead>
-            <tbody id="tbody">
-            </tbody>
-            </table>
-        </div>
-      </main>
+<nav class="navbar">
+    <h1 class="nav-brand">Text ellipsis</h1>
+  </nav>
+  
+  <main class="container">
+    <div>
+      <label class="label" for="component-name">Enter text<span class="input-required">*</span></label>
+      <input type="text" class="input" placeholder="Enter your text here" id="input" autocomplete="off">
+    </div>
+    <p id="output"></p>
+  </main> 
+
     <script type="module" src="js/index.js"></script>
 </body>
 </html>
